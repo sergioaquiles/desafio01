@@ -3,7 +3,7 @@
 //  DesafioBTG01
 //
 //  Created by Sergio Cardoso on 30/01/22.
-// API_KEY: e5ffd2f8681389db48c56ac78adfb8c3
+// 
 
 
 import Foundation
