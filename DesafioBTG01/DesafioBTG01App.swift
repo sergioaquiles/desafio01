@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct DesafioBTG01App: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
+	
+	@StateObject var viewModel = MovieViewModel()
+	
+	var body: some Scene {
+		WindowGroup {
+			Home()
+				.environmentObject(MovieViewModel())
+				.preferredColorScheme(.dark)
+		}
+	}
 }
